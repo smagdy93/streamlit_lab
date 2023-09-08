@@ -6,7 +6,7 @@ Created on Tue Sep  5 23:23:52 2023
 @author: safaa
 """
 import streamlit as st
-import joblib
+#import joblib
 import pandas as pd
 import numpy as np
 st.title('Map of Safaa')
