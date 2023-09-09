@@ -6,5 +6,6 @@ Created on Tue Sep  5 23:23:52 2023
 @author: safaa
 """
 import streamlit as st
+import matplotib
 number = st.slider("Pick a number: ", min_value=1, max_value=10)
 st.text("Your number is " + str(number))
