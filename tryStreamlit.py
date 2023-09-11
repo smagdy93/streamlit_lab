@@ -6,6 +6,7 @@ Created on Tue Sep  5 23:23:52 2023
 @author: safaa
 """
 import streamlit as st
+import pandas as pd
 import matplotlib.pyplot as plt
 plt.plot([1, 2, 3, 4])
 plt.ylabel('some numbers')
