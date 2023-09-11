@@ -16,7 +16,7 @@ st.text("Your number is " + str(number))
 n1=st.number_input('First Width', min_value=1,value=1)
 n2=st.number_input('Second Width',min_value=1,value=1)
 st.balloons()
-col1, col2, col3 = st.beta_columns((n1,n2,n3))
+col1, col2, col3 = st.columns((n1,n2,n3))
 with col1:
   st.write('First column')
 with col2:
