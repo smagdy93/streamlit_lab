@@ -24,7 +24,7 @@ with col2:
   st.write('Second column')
 with col3:
   st.write('Third column')
-trees_df = pd.read_csv("trees-sample.csv")
+trees_df = pd.read_csv("trees_sample.csv")
 df_dbh_grouped = pd.DataFrame(trees_df.groupby(["dbh"]).count()["tree_id"])
 df_dbh_grouped.columns = ["tree_count"]
 st.line_chart(df_dbh_grouped)
