@@ -13,6 +13,7 @@ plt.ylabel('some numbers')
 plt.show()
 
 number = st.slider("Pick a number: ", min_value=1, max_value=10)
+st.title('Safaa Ballons')
 st.text("Your number is " + str(number))
 n1=st.number_input('First Width', min_value=1,value=1)
 n2=st.number_input('Second Width',min_value=1,value=1)
